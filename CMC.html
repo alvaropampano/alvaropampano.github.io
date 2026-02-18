@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+  <head>
+  
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+	<title>&Aacute;lvaro P&aacute;mpano</title>
+	
+	<style type=text/css>
+	
+	body {  
+		height: 125vh; 
+		margin: 0: 
+		margin-top: 0vw;  
+		padding: 0vw 0vw; 
+		background-size: contain;  
+		font-family: Arial;  
+	}  
+
+	.topnav {
+		overflow: hidden;
+		background-color: silver;
+	}
+	
+	.topnav a {
+		float: left;
+		display: block;
+		color: blue;
+		text-align: center;
+		padding: 16px 20px;
+		text-decoration: none;
+		font-size: 20px;
+	}
+	
+	.topnav a:hover {
+		background-color: black;
+		color: #CC9900;
+		text-decoration: underline;
+	}
+	
+	.topnav a.active {
+		background-color: silver;
+		color: #CC9900;
+	}
+	
+	.topnav .icon {
+		display: none;
+	}
+
+	@media screen and (max-width: 850px) {
+		.topnav a:not(:first-child) {display: none;}
+		.topnav a.icon {
+			float: right;
+			display: block;
+		}
+	}
+	
+	@media screen and (max-width: 850px) {
+		.topnav.responsive {position: relative;}
+		.topnav.responsive .icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.topnav.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		}
+	}
+	
+	a:link {
+		color: blue;
+		text-decoration: none;
+	}	
+	
+	a:visited {
+		color: blue;
+	}
+	
+	a:hover {
+		color: #CC9900;
+		text-decoration: underline;
+	}
+
+	</style>
+     
+  </head>
+  
+  <body style="color: rgb(0, 0, 0); background-color: rgb(255, 255,255); alink="#000099" link="#000099" vlink="#990099">
+	
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" class="active"><span style="color:black;font-weight:bold;">Dr. &Aacute;lvaro P&aacute;mpano</span></a>
+		<a href="publications.html"><span style="font-weight:bold;">Publications</span></a>
+		<a href="presentations.html"><span style="font-weight:bold;">Presentations</span></a>
+		<a href="teaching.html"><span style="font-weight:bold;">Teaching</span></a>
+		<a href="research.html"><span style="font-weight:bold;">Research</span></a>
+		<a href="gallery.html"><span style="font-weight:bold;">Gallery</span></a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+	
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+	
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	
+	<div style="background-image: url('Background.png'); opacity: 1; background-repeat: no-repeat; background-size: contain; background-position: center; background-attachment: fixed;">  
+	
+	<br>
+	<br>
+	
+    <div style="text-align: left;"><big><span style="font-weight:bold;font-style:italic;font-size:40px;">&nbsp;&nbsp;CMC Surfaces</span></big></div>
+	
+	<br>
+	
+	<div style="text-align: left;padding-left:1vw;padding-right:1vw;font-size:20px" align="justify">
+	We briefly describe the variational characterization of profile curves of invariant constant mean curvature surfaces immersed in a 3-dimensional semi-Riemannian space form \(M_r^3(\rho)\)
+	which was introduced in <a href="https://reader.elsevier.com/reader/sd/pii/S0022247X18301926?token=CED2ED2FB2BCC989E02B0EDF7D7BB9E4E425A0CB5AE2CB9A92B178AE32A44469F9D7F69CB0703C19395B27ADDE9DB0CF&originRegion=us-east-1&originCreation=20210505212135"
+	target="_blank">(Arroyo, Garay &amp; ---, 2018)</a>.<br><br>
+	It turns out that these surfaces are binormal evolution surfaces spanned by a critical curve of an extension of a Blaschke's variational problem.<br><br>
+	
+	<span style="font-weight:bold;"><u>Theorem.</u></span> <a href="https://reader.elsevier.com/reader/sd/pii/S0022247X18301926?token=CED2ED2FB2BCC989E02B0EDF7D7BB9E4E425A0CB5AE2CB9A92B178AE32A44469F9D7F69CB0703C19395B27ADDE9DB0CF&originRegion=us-east-1&originCreation=20210505212135"
+	target="_blank">(Arroyo, Garay &amp; ---, 2018)</a> <span style="font-style:italic;">Let \(S\) be an invariant surface with CMC \(H\). Then, locally, the profile curve of \(S\) is critical for<br>
+	$$\mathbf{\Theta}_\mu(\gamma)=\int_\gamma \sqrt{\kappa-\mu}\,ds$$
+	with \(\lvert\mu\rvert=\lvert H\rvert\). Conversely, \(S\) can be locally obtained by the binormal flow of a critical curve.</span><br><br>
+	
+	Although above characterization is local in nature, it can be used to obtain global properties of CMC invariant surfaces. In particular, restricting ourselves to critical curves in \(\mathbb{S}^2(\rho)\),
+	we obtain the following result from <a href="http://www.doiserbia.nb.rs/img/doi/0354-5180/2019/0354-51801904191A.pdf"
+	target="_blank">(Arroyo, Garay &amp; ---, 2019)</a>.<br><br>
+	
+	<span style="font-weight:bold;"><u>Theorem.</u></span> <a href="http://www.doiserbia.nb.rs/img/doi/0354-5180/2019/0354-51801904191A.pdf"
+	target="_blank">(Arroyo, Garay &amp; ---, 2019)</a> <span style="font-style:italic;"> There exist non-trivial closed critical curves in \(\mathbb{S}^2(\rho)\), for any value of \(\mu\). Moreover, if the curve is also embedded, then \(\mu\neq -\sqrt{\rho/3}\) is negative.</span>
+	<br><br>
+	
+	The translation of this theorem to Delaunay surfaces in \(\mathbb{S}^3(\rho)\) coincides with previous results of Ripoll and Perdomo. Moreover, it allows us to verify the Lawson's conjecture (proved by Brendle).
+	</div>
+	
+	
+	<br>
+	<br>
+	
+	</div>
+	</body>
+	
+</html>

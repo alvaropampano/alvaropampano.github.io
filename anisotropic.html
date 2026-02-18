@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+  <head>
+  
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+	<title>&Aacute;lvaro P&aacute;mpano</title>
+	
+	<style type=text/css>
+	
+	body {  
+		height: 125vh; 
+		margin: 0: 
+		margin-top: 0vw;  
+		padding: 0vw 0vw; 
+		background-size: contain;  
+		font-family: Arial;  
+	}  
+
+	.topnav {
+		overflow: hidden;
+		background-color: silver;
+	}
+	
+	.topnav a {
+		float: left;
+		display: block;
+		color: blue;
+		text-align: center;
+		padding: 16px 20px;
+		text-decoration: none;
+		font-size: 20px;
+	}
+	
+	.topnav a:hover {
+		background-color: black;
+		color: #CC9900;
+		text-decoration: underline;
+	}
+	
+	.topnav a.active {
+		background-color: silver;
+		color: #CC9900;
+	}
+	
+	.topnav .icon {
+		display: none;
+	}
+
+	@media screen and (max-width: 850px) {
+		.topnav a:not(:first-child) {display: none;}
+		.topnav a.icon {
+			float: right;
+			display: block;
+		}
+	}
+	
+	@media screen and (max-width: 850px) {
+		.topnav.responsive {position: relative;}
+		.topnav.responsive .icon {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+		.topnav.responsive a {
+			float: none;
+			display: block;
+			text-align: left;
+		}
+	}
+	
+	a:link {
+		color: blue;
+		text-decoration: none;
+	}	
+	
+	a:visited {
+		color: blue;
+	}
+	
+	a:hover {
+		color: #CC9900;
+		text-decoration: underline;
+	}
+
+	</style>
+     
+  </head>
+  
+  <body style="color: rgb(0, 0, 0); background-color: rgb(255, 255,255); alink="#000099" link="#000099" vlink="#990099">
+	
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" class="active"><span style="color:black;font-weight:bold;">Dr. &Aacute;lvaro P&aacute;mpano</span></a>
+		<a href="publications.html"><span style="font-weight:bold;">Publications</span></a>
+		<a href="presentations.html"><span style="font-weight:bold;">Presentations</span></a>
+		<a href="teaching.html"><span style="font-weight:bold;">Teaching</span></a>
+		<a href="research.html"><span style="font-weight:bold;">Research</span></a>
+		<a href="gallery.html"><span style="font-weight:bold;">Gallery</span></a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+	</div>
+	
+	<script>
+	function myFunction() {
+		var x = document.getElementById("myTopnav");
+		if (x.className === "topnav") {
+			x.className += " responsive";
+		} else {
+			x.className = "topnav";
+		}
+	}
+	</script>
+	
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+	
+	<div style="background-image: url('Background.png'); opacity: 1; background-repeat: no-repeat; background-size: contain; background-position: center; background-attachment: fixed;">  
+	
+	<br>
+	<br>
+	
+    <div style="text-align: left;"><big><span style="font-weight:bold;font-style:italic;font-size:40px;">&nbsp;&nbsp;Anisotropic Elasticae</span></big></div>
+	
+	<br>
+	
+	<div style="text-align: left;padding-left:1vw;padding-right:1vw;font-size:20px" align="justify">
+	For any smooth, regular (planar) curve \(C:I\rightarrow\mathbb{R}^2\) parameterized by the arc length \(s\), its anisotropic curvature is defined by
+	$$\lambda(s):=\frac{\kappa(s)}{\mu\left(\theta(s)\right)}\,,$$
+	where \(\kappa(s)\) is the (Frenet) curvature of \(C\) and \(\mu\left(\theta(s)\right)\) denotes the curvature of a convex curve, referred to as the Wulff shape.<br><br>
+	
+	The anisotropic bending energy of \(C\) is then given by the functional
+	$$\mathcal{E}_\beta[C]:=\int_C\left(\lambda^2+\beta\right)ds\,,$$
+	where \(\beta\in\mathbb{R}\).<br><br>
+	
+	In <a href="https://link.springer.com/article/10.1007/s10455-019-09698-1" target="_blank">(Palmer &amp; ---, 2020-1)</a> critical curves for this energy in \(\mathbb{R}^3\) were studied as well as equilibria for more general functionals including twisting.
+	Here, we describe the classification in \(\mathbb{R}^2\) proved in <a href="https://www.atlantis-press.com/journals/gaf/125935245/view" target="_blank">(Palmer &amp; ---, 2020-2)</a>, which for functionals possesing an essential symmetry coincides with Euler's classification, although the order in which the nine types of curves occur may
+	be more complicated than in the isotropic case.<br><br>
+	
+	<span style="font-weight:bold;"><u>Theorem.</u></span> <a href="https://www.atlantis-press.com/journals/gaf/125935245/view" target="_blank">(Palmer &amp; ---, 2020-2)</a> <span style="font-style:italic;"> Let \(C\) be a critical curve for \(\mathcal{E}_\beta\) for a symmetric Wulff shape. Then, up to quasi-rotations and rescalings,
+	\(C\) is one of the followings:<br>
+	<ol>
+	<li>A suitable rotation of the Wulff shape \((\lambda^2=\beta)\).</li><br>
+	<li>An orbit-like anisotropic elasticae \((\beta>1)\).</li><br>
+	<li>A borderline anisotropic elasticae \((\beta=1)\).</li><br>
+	<li>A wave-like anisotropic elasticae \((-1<\beta<1)\).</li><br>
+	<ul>
+	<li>A multiloop \((0<\beta<1)\).</li><br>
+	<li>A lemniscate \((0<\beta<1)\).</li><br>
+	<li>A deep wave \((0<\beta<1)\).</li><br>
+	<li>A rectangular \((\beta=0)\).</li><br>
+	<li>A shallow wave \((-1<\beta<0)\).</li><br>
+	</ul>
+	<li>A straight line \((\lambda=0)\).</li>
+	</ol>
+	</span><br>
+	
+	We now show some illustrations of above classification for the Wulff shape described by
+	$$\frac{1}{\mu}:=1-\frac{24}{25}\cos\left(5\theta\right).$$
+	</div>
+	
+	
+	<br>
+	<br>
+	
+	</div>
+	</body>
+	
+</html>
